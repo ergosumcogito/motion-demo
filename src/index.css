@@ -21,3 +21,17 @@ p {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.navbar {
+  padding: 10px;
+  background: #2f006a;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  border-top: 2px dashed #ffffff;
+  border-bottom: 2px dashed #ffffff;
+  border-left: none;
+  border-right: none;
+}

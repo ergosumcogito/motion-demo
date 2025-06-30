@@ -3,19 +3,7 @@ import homeIcon from '../assets/home.svg'
 
 export default function NavBar() {
     return (
-        <nav style={{
-            padding: "10px",
-            background: "#22004e",
-            display: "flex",
-            alignItems: "center",
-            fontSize: "1.25rem",
-            fontFamily: "Inter",
-            fontWeight: "bold",
-            borderTop: "2px dashed #ffffff",
-            borderBottom: "2px dashed #ffffff",
-            borderLeft: "none",
-            borderRight: "none",
-        }}>
+        <nav className="navbar">
             <Link to="/">
                 <img src={homeIcon} alt="Home" width={30} style={{ verticalAlign: "middle", margin: "10px" }} />
             </Link>
