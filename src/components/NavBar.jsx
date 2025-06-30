@@ -8,11 +8,11 @@ export default function NavBar() {
             background: "#22004e",
             display: "flex",
             alignItems: "center",
-            fontSize: "2.0rem",
+            fontSize: "1.5rem",
             fontFamily: "Inter",
             fontWeight: "bold",
             border: "3px solid #ffffff",
-            borderRadius: "8px"
+            borderRadius: "5px"
         }}>
             <Link to="/">
                 <img src={homeIcon} alt="Home" width={35} style={{ verticalAlign: "middle", margin: "10px" }} />

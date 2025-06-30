@@ -8,7 +8,7 @@ function App() {
     return (
         <div>
             <NavBar />
-            <main style={{ padding: '0 20px' }}>
+            <main className="content-wrapper">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/page-one" element={<PageOne />} />

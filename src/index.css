@@ -3,9 +3,21 @@ body {
   min-height: 100vh;
   background: radial-gradient(circle at center, #300c5f, #150827);
   color:white;
-  font-family: 'Tilt Prism', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
 }
 
 h1 {
   font-size: 4.0rem;
+  font-family: 'Tilt Prism', sans-serif;
+}
+
+p {
+  text-align: left;
+}
+
+.content-wrapper {
+  padding: 0 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
