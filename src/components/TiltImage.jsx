@@ -33,7 +33,7 @@ function TiltImage({ src, alt, style}) {
             onMouseMove={handleMouseMove}
             onMouseLeave={reset}
             style={{
-                perspective: 1000, // perspective is now on the parent
+                perspective: 1000,
                 display: 'inline-block',
             }}
         >
