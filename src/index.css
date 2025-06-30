@@ -1,7 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #150827;
+  background: radial-gradient(circle at center, #300c5f, #150827);
   color:white;
   font-family: 'Tilt Prism', sans-serif;
 }

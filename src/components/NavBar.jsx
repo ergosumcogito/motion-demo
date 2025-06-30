@@ -8,13 +8,17 @@ export default function NavBar() {
             background: "#22004e",
             display: "flex",
             alignItems: "center",
-            fontSize: "2.0rem"
+            fontSize: "2.0rem",
+            fontFamily: "Inter",
+            fontWeight: "bold",
+            border: "3px solid #ffffff",
+            borderRadius: "8px"
         }}>
             <Link to="/">
                 <img src={homeIcon} alt="Home" width={35} style={{ verticalAlign: "middle", margin: "10px" }} />
             </Link>
-            <Link to="/page-one" style={{color: "white", margin: "10px" }}>Page 1</Link>
-            <Link to="/page-two" style={{color: "white", margin: "10px" }}>Page 2</Link>
+            <Link to="/page-one" style={{color: "white", margin: "10px", textDecoration: "none" }}>Page 1</Link>
+            <Link to="/page-two" style={{color: "white", margin: "10px", textDecoration: "none"}}>Page 2</Link>
         </nav>
     );
 }
