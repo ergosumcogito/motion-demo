@@ -14,7 +14,7 @@ export default function NavBar() {
             borderTop: "2px dashed #ffffff",
             borderBottom: "2px dashed #ffffff",
             borderLeft: "none",
-            borderRight: "none"
+            borderRight: "none",
         }}>
             <Link to="/">
                 <img src={homeIcon} alt="Home" width={30} style={{ verticalAlign: "middle", margin: "10px" }} />
