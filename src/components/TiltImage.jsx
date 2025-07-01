@@ -11,14 +11,14 @@ function TiltImage({ src, alt, style}) {
         const centerX = bounds.left + bounds.width / 2;
         const centerY = bounds.top + bounds.height / 2;
 
-        const deltaX = e.clientX - centerX;
+        const deltaX = e.clientX - centerX; // delta to center
         const deltaY = e.clientY - centerY;
 
-        const normX = deltaX / (bounds.width / 2);
-        const normY = deltaY / (bounds.height / 2);
+        const normX = deltaX / (bounds.width / 2); // delta divided by half of image
+        const normY = deltaY / (bounds.height / 2); // in range [-1, 1]
 
-       const rotateX = -normY * maxTilt;
-       const rotateY = normX * maxTilt;
+       const rotateX = -normY * maxTilt; // around X, up-down;
+       const rotateY = normX * maxTilt; // around Y, left-right;
 
         setRotate({
             x: rotateX,

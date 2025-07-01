@@ -8,7 +8,10 @@ import NavBar from "./components/NavBar.jsx";
 import PageWrapper from "./components/PageWrapper.jsx";
 
 function App() {
-    const location = useLocation(); // Для корректной работы AnimatePresence
+    // Location updates on route change -> React remounts routes with new key -> AnimatePresence triggers exit and enter animations
+    const location = useLocation();
+
+    // For demo purposes
     const animationsEnabled = true;
 
     return (
